@@ -1,3 +1,4 @@
 $(document).ready(function() {
-	//Code
+	var source = $("#entry-template").html;
+	var template = Handlebars.compile(source);
 });
